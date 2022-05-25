@@ -1,0 +1,198 @@
+body {
+    background: url('wallpaper.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.nav{
+    width: 100vw;
+    height: 4vh;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    background-color: black;
+    top: 0px;
+}
+.home, .o_nas, .opinie, .uslugi, .cennik, .kontakt, .minigra{
+    width: 10vw;
+    height: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white(25, 0, 255);
+    overflow: hidden;
+}
+
+
+#zegar{
+    width: 10vw;
+    height: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+    left: 10vw;
+    font-size: 1.5rem;
+}
+
+
+.boosting{
+    width: 35vh;
+    height: 15vh;
+    position: relative;
+    left: 80vw;
+    top: 5vh;
+    color: white;
+    font-size: 10px;
+    overflow: hidden;
+}
+.sprawdz_wiecej{
+    width: 30vh;
+    height: 7vh;
+    border: 2px solid white;
+    position: relative;
+    left: 1.2vw;
+    font-size: 26px;
+    padding-bottom: 10px;
+    bottom: 0.5vw;
+}
+
+.rejestracja{
+    height: 23vh;
+    width: 30vh;
+    background-color: rgba(128,128,128,0.8);
+    position: relative;
+    left: 5vh;
+    padding:10px;
+    border-radius:10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+input[type=text]{
+    width: 12vw;
+    height: 3vh;
+    position: relative;
+    border: 1px solid grey;
+    padding:10px;
+    border-radius:10px;
+    font-size: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input[type="password"]{
+    width: 12vw;
+    height: 3vh;
+    position: relative;
+    border: 1px solid grey;
+    padding:10px;
+    border-radius:10px;
+    font-size: 1rem;
+}
+
+
+input[type=submit]{
+    width: 13.4vw;
+    height: 3.5vh;
+    position: relative;
+    border: 1px solid grey;
+    border-radius:10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+    top:2vh;
+}
+
+.haslo{
+    position: relative;
+    top: 1vh;
+}
+
+.bloki{
+    height: 35vh;
+    width: 99vw;
+    position: relative;
+    top: 15vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blok1{
+    height: 30vh;
+    width: 40vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: relative;
+    top: 2.5vh;
+    left: 2vw;
+    font-size: 1.5rem;
+    padding:10px;
+    border-radius:10px;
+    color: white;
+    transition: background-color 2s ease-out 100ms;
+}
+
+.blok1:hover {
+    background-color: rgba(255, 0, 0, 0.4);
+}
+
+
+.blok2{
+    height: 30vh;
+    width: 40vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: relative;
+    top: 2.5vh;
+    font-size: 1.5rem;
+    padding:10px;
+    border-radius:10px;
+    color: white;
+    transition: background-color 2s ease-out 100ms;
+}
+
+.blok2:hover {
+    background-color: rgba(255, 0, 0, 0.4);
+}
+
+.blok3{
+    height: 30vh;
+    width: 40vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: relative;
+    top: 2.5vh;
+    right: 2vw;
+    padding:10px;
+    font-size: 1.5rem;
+    border-radius:10px;
+    color: white;
+    transition: background-color 2s ease-out 100ms;
+}
+
+.blok3:hover {
+    background-color: rgba(255, 0, 0, 0.4);
+}
+hr{
+    border: 1px solid grey;
+    position: relative;
+    top: 15vh;
+}
+
+
+p{
+    font-size: 1.5rem;
+}
+
+a{
+    text-decoration: none;
+    color:  white;
+}
+
+a:hover{
+    border-bottom: 3px solid red;
+}
+
+

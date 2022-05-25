@@ -1,0 +1,90 @@
+body{
+background: url('wallpaper.jpg') no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+background-size: cover;
+-o-background-size: cover;
+justify-content: center;
+}
+
+.wrap{
+    height: 98vh;
+    width: 99vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about_me{
+    height: 80vh;
+    width: 40vw;
+    background-color: black;
+    position: relative;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.rainbow{
+    animation: rainbow 2.5s linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes rainbow{
+    100%,
+    0% {
+      color: rgb(255, 0, 0);
+    }
+    8% {
+      color: rgb(255, 127, 0);
+    }
+    16% {
+      color: rgb(255, 255, 0);
+    }
+    25% {
+      color: rgb(127, 255, 0);
+    }
+    33% {
+      color: rgb(0, 255, 0);
+    }
+    41% {
+      color: rgb(0, 255, 127);
+    }
+    50% {
+      color: rgb(0, 255, 255);
+    }
+    58% {
+      color: rgb(0, 127, 255);
+    }
+    66% {
+      color: rgb(0, 0, 255);
+    }
+    75% {
+      color: rgb(127, 0, 255);
+    }
+    83% {
+      color: rgb(255, 0, 255);
+    }
+    91% {
+      color: rgb(255, 0, 127);
+    }
+}
+.powrot{
+    height: 5vh;
+    width: 50vw;
+    background-color: white;
+    font-size: 1.5rem;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: border 2s ease-out 100ms;
+    box-sizing: border-box;
+}
+
+.powrot:hover{
+    border: 3px solid red;
+}
+
+a, a:visited, a:link{
+    text-decoration: none;
+}
